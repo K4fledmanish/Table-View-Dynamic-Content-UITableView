@@ -16,6 +16,12 @@
 		DA6CC698250F30B5001201B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6CC697250F30B5001201B7 /* main.m */; };
 		DA6CC6A2250F30B5001201B7 /* Table_View_Dynamic_Content_UITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6CC6A1250F30B5001201B7 /* Table_View_Dynamic_Content_UITableViewTests.m */; };
 		DA6CC6AD250F30B5001201B7 /* Table_View_Dynamic_Content_UITableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6CC6AC250F30B5001201B7 /* Table_View_Dynamic_Content_UITableViewUITests.m */; };
+		DA6CC6C1250F351B001201B7 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6BB250F351A001201B7 /* 6.png */; };
+		DA6CC6C2250F351B001201B7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6BC250F351A001201B7 /* 2.png */; };
+		DA6CC6C3250F351B001201B7 /* Teja.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6BD250F351A001201B7 /* Teja.png */; };
+		DA6CC6C4250F351B001201B7 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6BE250F351A001201B7 /* 4.jpg */; };
+		DA6CC6C5250F351B001201B7 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6BF250F351B001201B7 /* 5.png */; };
+		DA6CC6C6250F351B001201B7 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA6CC6C0250F351B001201B7 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,12 @@
 		DA6CC6A8250F30B5001201B7 /* Table-View-Dynamic-Content-UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Table-View-Dynamic-Content-UITableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6CC6AC250F30B5001201B7 /* Table_View_Dynamic_Content_UITableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Table_View_Dynamic_Content_UITableViewUITests.m; sourceTree = "<group>"; };
 		DA6CC6AE250F30B5001201B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6CC6BB250F351A001201B7 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		DA6CC6BC250F351A001201B7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DA6CC6BD250F351A001201B7 /* Teja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teja.png; sourceTree = "<group>"; };
+		DA6CC6BE250F351A001201B7 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DA6CC6BF250F351B001201B7 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		DA6CC6C0250F351B001201B7 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,7 @@
 		DA6CC684250F30B4001201B7 /* Table-View-Dynamic-Content-UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				DA6CC6BA250F34FB001201B7 /* Images */,
 				DA6CC685250F30B4001201B7 /* AppDelegate.h */,
 				DA6CC686250F30B4001201B7 /* AppDelegate.m */,
 				DA6CC688250F30B4001201B7 /* SceneDelegate.h */,
@@ -135,6 +148,19 @@
 				DA6CC6AE250F30B5001201B7 /* Info.plist */,
 			);
 			path = "Table-View-Dynamic-Content-UITableViewUITests";
+			sourceTree = "<group>";
+		};
+		DA6CC6BA250F34FB001201B7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DA6CC6BC250F351A001201B7 /* 2.png */,
+				DA6CC6C0250F351B001201B7 /* 3.jpg */,
+				DA6CC6BE250F351A001201B7 /* 4.jpg */,
+				DA6CC6BF250F351B001201B7 /* 5.png */,
+				DA6CC6BB250F351A001201B7 /* 6.png */,
+				DA6CC6BD250F351A001201B7 /* Teja.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +225,7 @@
 		DA6CC67A250F30B4001201B7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = K4fledmanish;
 				TargetAttributes = {
 					DA6CC681250F30B4001201B7 = {
@@ -240,8 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6CC6C6250F351B001201B7 /* 3.jpg in Resources */,
 				DA6CC695250F30B5001201B7 /* LaunchScreen.storyboard in Resources */,
+				DA6CC6C4250F351B001201B7 /* 4.jpg in Resources */,
 				DA6CC692250F30B5001201B7 /* Assets.xcassets in Resources */,
+				DA6CC6C2250F351B001201B7 /* 2.png in Resources */,
+				DA6CC6C3250F351B001201B7 /* Teja.png in Resources */,
+				DA6CC6C5250F351B001201B7 /* 5.png in Resources */,
+				DA6CC6C1250F351B001201B7 /* 6.png in Resources */,
 				DA6CC690250F30B4001201B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -375,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,6 +442,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -427,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF594KCP7E;
 				INFOPLIST_FILE = "Table-View-Dynamic-Content-UITableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF594KCP7E;
 				INFOPLIST_FILE = "Table-View-Dynamic-Content-UITableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
